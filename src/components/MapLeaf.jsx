@@ -35,6 +35,11 @@ const customIconBuffer = new Icon({
   iconSize: [38, 38],
 });
 
+const customIconRealLocation = new Icon({
+  iconUrl: "blue_marker.svg",
+  iconSize: [38, 38],
+});
+
 // Global Variables --------------------------------------------------------
 let startCoords, endCoords;
 let centerState = false;
@@ -92,7 +97,7 @@ const MapLeaf = () => {
         [lat,lng],
         13
       );
-      L.marker([lat,lng]).addTo(map)
+      L.marker([lat,lng], {icon: customIconRealLocation, className: 'dummy'}).addTo(map)
     }
 
     // Add basemap ----------------------------------------------------------------------------------------
