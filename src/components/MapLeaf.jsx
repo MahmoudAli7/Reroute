@@ -330,7 +330,7 @@ const MapLeaf = () => {
         center = coordinates;
         L.circle([center[1], center[0]], {
           color: "orange",
-          radius: 500,
+          radius: 500/1.1,
         }).addTo(map);
 
         let radius = 0.5; //in km
@@ -391,6 +391,7 @@ const MapLeaf = () => {
             <p>Click on Map to Add Start and End Points</p>
             <p>Turn on Buffer and Click on Map to Add Buffer</p>
             <p>Do not Add Points Inside Buffers</p>
+            <p>Refresh to Reload Map</p>
           </div>
           <button onClick={() => setShowNote(false)} className="justify-center ml-5 mt-1"><FaTimes /></button>
         </div>
