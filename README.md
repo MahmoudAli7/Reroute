@@ -26,6 +26,10 @@ Turn off buffer sign and add start and end points to route around buffers.
 
 ## Route using Search Bar
 
-Enter address or name of start and end locations. (lat & Longs. don't work)
+Enter address or name, and then click enter where you will be displayed with a dropdown of locations. (lat & Longs. don't work)
+
+![image](https://github.com/MahmoudAli7/Reroute/assets/77214455/b5efed15-8d07-4515-8f40-46487a959db5)
+
+Select the start and end locations, and it will route to it around buffers along the way.
 
 ![image](https://github.com/MahmoudAli7/Reroute/assets/77214455/8ddadc7b-5b98-496a-9ffb-f99b6505defb)
