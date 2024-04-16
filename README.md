@@ -1,6 +1,6 @@
 # Reroute
 
-Purpose of the app is to provide a route that will avoid buffers for fleet navigation carrying hazardous materials. Tech stack used for the project include React, TailwindCSS, ESRI REST API, Leaflet.
+Purpose of the app is to provide a route that will avoid buffers for fleet navigation carrying hazardous materials with real-time routing capabilities. Tech stack used for the project include React, TailwindCSS, ESRI REST API, Leaflet.
 
 # Map 
 
